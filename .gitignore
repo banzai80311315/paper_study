@@ -1,0 +1,15 @@
+**/data/raw/
+**/data/processed/
+**/data/features/
+**/data/model
+**/data/para
+
+fig/
+**/.ipynb_checkpoints/
+
+__pycache__/
+*.pyc
+.env
+.venv/
+
+AGENTS.md

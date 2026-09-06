@@ -1,0 +1,26 @@
+# Python 3.11. Direct dependencies used by notebooks and applications.
+# Numerical analysis and plotting
+numpy>=1.26,<2
+pandas>=2.2,<3
+scipy>=1.12,<2
+# ArviZ 0.21 uses matplotlib.style.core (removed in newer Matplotlib).
+matplotlib>=3.8,<3.10
+seaborn>=0.13,<0.14
+scikit-learn>=1.4,<2
+statsmodels>=0.14,<0.15
+
+# Bayesian models (PyMC resolves the compatible PyTensor version)
+pymc>=5.10,<5.20
+pytensor>=2.18,<2.27
+arviz>=0.17,<0.22
+
+# Data acquisition and applications
+jpholiday>=0.1.10,<2
+meteostat>=2.1,<3
+requests>=2.31,<3
+streamlit>=1.32,<2
+
+# Notebook execution
+ipykernel>=6.29,<7
+ipywidgets>=8.1,<9
+jupyterlab>=4.1,<5
