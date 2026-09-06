@@ -4,7 +4,7 @@
 
 環境構築・ライブラリの追加方法は[リポジトリのREADME](../../README.md)を参照してください。Notebookのカーネルには、リポジトリ直下の `.venv` を選択します。
 
-元データは全研究共通の `jepx-data-analytics/data/raw/` にあります。加工結果・特徴量・初期値は、この研究の `Merton_Poisson_Lognormal_Model_Study_and_Negative_Binomial_Extension/data/` に保存します。Notebookでは最初のコードセルで設定する `RAW_DATA_DIR` と `PROJECT_DATA_DIR` を使用します。
+元データは全研究共通の `paper_study/data/raw/` にあります。加工結果・特徴量・初期値は、この研究の `Merton_Poisson_Lognormal_Model_Study_and_Negative_Binomial_Extension/data/` に保存します。Notebookでは最初のコードセルで設定する `RAW_DATA_DIR` と `PROJECT_DATA_DIR` を使用します。
 
 ## 概要
 先行研究の論文を精読し、以下を理解する。

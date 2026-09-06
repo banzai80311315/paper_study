@@ -1,4 +1,6 @@
-# jepx-data-analytics
+# paper_study
+
+読んだ論文とか考えたこととか
 
 ## Python環境の準備（Windows / PowerShell）
 
@@ -37,7 +39,7 @@ VS Codeでこのフォルダを開き、`Python: Select Interpreter` から `.ve
 .\.venv\Scripts\python.exe -m jupyterlab
 ```
 
-作成スクリプトが登録するカーネル名は `Python (.venv - jepx-data-analytics)` です。手動作成の場合もJupyterLabの標準Pythonカーネルでこの環境を使用できます。
+作成スクリプトが登録するカーネル名は `Python (.venv - paper_study)` です。手動作成の場合もJupyterLabの標準Pythonカーネルでこの環境を使用できます。
 
 Pythonファイルを実行する場合：
 
@@ -54,7 +56,7 @@ Pythonファイルを実行する場合：
 元データはリポジトリ直下の `data/raw/` を全研究で共用します。加工データ・特徴量・モデル用データ・初期値は、各研究ディレクトリの `data/` に保存します。
 
 ```text
-jepx-data-analytics/
+paper_study/
 ├── .venv/
 ├── data/
 │   └── raw/
@@ -100,5 +102,3 @@ Merton研究の予備検討で使う初期値は、その研究の `data/pre/ini
 | --- | --- |
 | `study_with_me/3.model/04_price_forecasts_modelC.ipynb` | `study_with_me/data/process/electricity/weekly_base_after_2017.csv` |
 | `study_with_me/4.estimation/MCMC.ipynb` | `study_with_me/data/process/electricity/df_tokyo.csv` |
-
-読んだ論文とか考えたこととか

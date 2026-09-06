@@ -16,6 +16,6 @@ if ($LASTEXITCODE -ne 0) { throw "The existing .venv uses an unsupported Python 
 if ($LASTEXITCODE -ne 0) { throw "Dependency installation failed." }
 & $venvPython -m pip check
 if ($LASTEXITCODE -ne 0) { throw "Dependency verification failed." }
-& $venvPython -m ipykernel install --sys-prefix --name jepx-data-analytics --display-name "Python (.venv - jepx-data-analytics)"
+& $venvPython -m ipykernel install --sys-prefix --name paper_study --display-name "Python (.venv - paper_study)"
 if ($LASTEXITCODE -ne 0) { throw "Notebook kernel registration failed." }
 Write-Host "Ready: $venvPython"
